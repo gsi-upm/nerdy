@@ -1,0 +1,18 @@
+{
+    "name": "nerdy",
+    "module": "nerdy",
+    "description": "Named Entity Recognition and Disambiguation in python",
+    "author": "@constanr",
+    "version": "0.1",
+    "extra_params": {
+        "classifier": {
+            "@id": "nerdy_classifier",
+            "aliases": ["classifier", "cl"],
+            "required": true,
+            "options": ["stanford-es", "stanford-en", "ritter", "polyglot-es", "polyglot-en", "citius-es", "citius-en"]
+        }
+     },
+    "requirements": {rdflib==4.2.1,polyglot==16.7.4},
+    "marl:maxPolarityValue": "1",
+    "marl:minPolarityValue": "-1"
+}
