@@ -1,5 +1,5 @@
 .. image:: img/nerdy.png
-   :height: 6em
+   :height: 4em
 
 Nerdy provides different NER classifiers as a service in a common format, `NIF <http://persistence.uni-leipzig.org/nlp2rdf/>`_. Users can extract named entities from text they provide or use annotated documents to evaluate and compare the classifiers.
 
