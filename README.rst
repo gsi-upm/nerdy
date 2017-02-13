@@ -30,6 +30,7 @@ Then, you clone this repository and run a senpy server with nerdy plugin.
    python2 -m senpy -f .
 
 The service is now available at port 5000.
+
 Known issues
 ------------
 
