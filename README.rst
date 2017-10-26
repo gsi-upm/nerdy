@@ -37,6 +37,7 @@ Known issues
 - This software is developed in Python 2.7. So, the release of Senpy installed in your host must be python 2 release. (don't use pip3)
 - To use Standford classifier with Nerdy, `Oracle Java 8 <https://www.java.com/es/download/help/linux_x64_install.xml>`_ is neccesary. 
 - To use citius NER, please visit http://proxectos.citius.usc.es/hpcpln/index.php/en/software-tools. Move Citius_tools folder into classifiers folder.
+- NER run files, datasets and classifiers needed to use with this tool are not included in this repo. To use them, please visit official sites as https://nlp.stanford.edu/software/CRF-NER.shtml
 - It is possible you need to install some extra depedencies for using polyglot. You can do this on Linux with: 
 .. code:: bash
 
